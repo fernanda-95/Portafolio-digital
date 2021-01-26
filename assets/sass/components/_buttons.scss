@@ -1,0 +1,33 @@
+.boton{
+  background-color: #F9E4CA;
+}
+
+button{
+  width: 15%;
+  color: #fff;
+  border: none;
+  padding: .5em;
+  margin-top: 2em;
+  margin-left: 40%;
+  margin-bottom: 2em;
+  align-content:center;
+  background-color: #E66F43;
+  font-family: 'Roboto',sans-serif;
+  box-shadow: 0 2px 4px rgba(black, .8);
+}
+
+@media (max-width: 767px) {
+button{
+  width: 36%;
+  color: #fff;
+  border: none;
+  padding: .5em;
+  margin-top: 2em;
+  margin-left: 34%;
+  margin-bottom: 2em;
+  border-radius: 50px;
+  align-content:center;
+  background-color: #E66F43;
+  font-family: 'Roboto',sans-serif;
+}
+}

@@ -1,0 +1,23 @@
+@mixin salmon{
+  color: #fff;
+  background-color: #E39D80;
+}
+
+
+@mixin about{
+.about h1 {
+  color: black;
+  margin-top: 1em;
+  text-align: left;
+  font-size: 1.6em;
+}
+.about p{
+  font-size: 1.1em;
+  color: black;
+}
+}
+
+@mixin experiencia{
+  font-family: 'Ubuntu', monospace;
+  color: black;
+}

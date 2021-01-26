@@ -1,0 +1,222 @@
+/*ABOUT*/
+
+
+/*SOBRE MÍ CHICO*/
+
+@media (max-width: 766px) {
+  .about{
+    padding:1em;
+    display: flex;
+    font-weight: 400;
+    background-color: #ECDEB4;
+    border-bottom: solid #ECDEB4 3em;
+  }
+
+  .about_text{
+    padding: 1.5em;
+    margin-top: -2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    justify-content: center;
+    background-color: #DBC388;
+    font-family: 'Ubuntu', monospace;
+  }
+  .about h1{
+    margin-bottom: 0;
+  }
+  @include about
+}
+
+/*SOBRE MÍ GRANDE*/
+
+@media (min-width: 767px) {
+  .about{
+    padding:1em;
+    display: flex;
+    background-color: #ECDEB4;
+    border-bottom: solid #ECDEB4 3em;
+  }
+
+  .about h1{
+    margin-left: 1.5em;
+  }
+  .about_text{
+    padding: 2em;
+    margin-top: -3em;
+    margin-left: 3em;
+    margin-right: 3em;
+    justify-content: center;
+    background-color: #DBC388;
+    font-family: 'Ubuntu', monospace;
+  }
+  @include about
+}
+
+
+/*EXPERIENCIA CHICO*/
+
+ @media (max-width: 768px) {
+   .experiencia{
+     margin: auto;
+     padding-top: 2em;
+     padding-right: 1em;
+     padding-left: 1em;
+     padding-bottom: 3em;
+     font-weight: 300;
+     display: flex;
+     flex-wrap: wrap;
+     max-width: 100%;
+     background-color: #92A989;
+   }
+   .experiencia h1{
+     color: black;
+     font-size: 1.5em;
+     margin-top: 0;
+     margin-left: 1em;
+     margin-right: 1em;
+     margin-bottom: 1em;
+   }
+   .experiencia_experiencia{
+     margin: 1em;
+     padding-left: 1em;
+     padding-right: 1em;
+     padding-bottom: 3em;
+     padding-top: 1em;
+     background-color: #EDDFB5;
+     font-family: 'Ubuntu', monospace;
+   }
+   .experiencia h2{
+     margin-top: 1em;
+     font-size: 1.1em;
+   }
+   .experiencia h3{
+     font-size: .8em;
+   }
+   .experiencia_certificaciones{
+     margin: 1em;
+     padding: 1.2em;
+     background-color: #EDDFB5;
+     font-family: 'Ubuntu', monospace;
+   }
+  }
+
+
+/*EXPERIENCIA MEDIANO*/
+
+  @media (min-width: 767px) {
+    .experiencia{
+      margin: auto;
+      padding: 2em;
+      display: flex;
+      flex-wrap: nowrap;
+      max-width: 100%;
+      color: black;
+      background-color: #92A989;
+    }
+    .experiencia h1{
+      margin: 1em;
+      color: black;
+      font-size: 1.8em;
+    }
+    .experiencia_experiencia{
+      margin: 1.5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 4em;
+      padding-top: 1em;
+      background-color: #EDDFB5;
+      font-family: 'Ubuntu', monospace;
+
+    }
+    .experiencia h2{
+      margin-top: 1em;
+      font-size: 1.3em;
+    }
+    .experiencia h3{
+      font-size: .9em;
+    }
+    .experiencia_certificaciones{
+      margin: 1.5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 4em;
+      padding-top: 1em;
+      background-color: #EDDFB5;
+      font-family: 'Ubuntu', monospace;
+    }
+  }
+
+
+/*EXPERIENCIA GRANDE*/
+
+  @media (min-width: 1025px) {
+    .experiencia{
+      margin: auto;
+      padding: 3em;
+      display: flex;
+      flex-wrap: nowrap;
+      max-width: 100%;
+      background-color: #92A989;
+    }
+    .experiencia h1{
+      margin: 1em;
+      color: black;
+      font-size: 1.8em;
+    }
+    .experiencia_experiencia{
+      margin: 1.5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 4em;
+      padding-top: 1em;
+      background-color: #EDDFB5;
+      font-family: 'Ubuntu',monospace;
+    }
+    .experiencia h2{
+      margin-top: 1em;
+      font-size: 1.5em;
+    }
+    .experiencia h3{
+      font-size: 1em;
+    }
+    .experiencia_certificaciones{
+      margin: 1.5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      padding-bottom: 4em;
+      padding-top: 1em;
+      background-color: #EDDFB5;
+      font-family: 'Ubuntu',monospace;
+    }
+  }
+
+
+
+/*TRABAJOS*/
+
+.trabajos{
+  padding: 2em;
+  flex-wrap: wrap;
+  margin-top: -3em;
+  justify-content: center;
+  background-color: #A85F5A;
+}
+.trabajos_cuadro img{
+  max-width: 90%;
+  margin: 1em;
+}
+
+@media (min-width: 767px) {
+  .trabajos{
+    padding: 2em;
+    display: flex;
+    margin-top: -3em;
+    justify-content: center;
+    background-color: #A85F5A;
+  }
+  .trabajos_cuadro img{
+    max-width: 100%;
+    margin: 1.4em;
+    display: inline-block;
+  }
+}
